@@ -25,7 +25,8 @@ const greeting = {
   subTitle: emoji(
     "A passionate Android Developer 🚀 having experience in building Native Android applications with Kotlin. Currently learning DevOps and Web"
   ),
-  resumeLink: "https://github.com/rushikeshsuryawanshi/resume/blob/main/Rushikesh_Suryawanshi.pdf", // Set to empty to hide the button
+  resumeLink:
+    "https://github.com/rushikeshsuryawanshi/resume/blob/main/Rushikesh_Suryawanshi.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -49,9 +50,7 @@ const skillsSection = {
   title: "What I do",
   subTitle: "NATIVE ANDROID DEVELOPER, TRYING TO LEARN DEVOPS AND WEB",
   skills: [
-    emoji(
-      "⚡ Develop Native Android Applications in Kotlin"
-    ),
+    emoji("⚡ Develop Native Android Applications in Kotlin"),
     emoji("⚡ Integration with Firebase and other Libraries"),
     emoji("⚡ Learning DevOps and Full Stack Web")
   ],
@@ -59,7 +58,8 @@ const skillsSection = {
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [{
+  softwareSkills: [
+    {
       skillName: "android",
       fontAwesomeClassname: "fab fa-android"
     },
@@ -119,19 +119,22 @@ https://fontawesome.com/icons?d=gallery */
 
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
-  schools: [{
-    schoolName: "GESCOE, Nashik (SPPU)",
-    logo: require("./assets/images/clg-logo.png"),
-    subHeader: "Bachelor's in Computer Science",
-    duration: "June 2019 - April 2023"
-  }]
+  schools: [
+    {
+      schoolName: "GESCOE, Nashik (SPPU)",
+      logo: require("./assets/images/clg-logo.png"),
+      subHeader: "Bachelor's in Computer Science",
+      duration: "June 2019 - April 2023"
+    }
+  ]
 };
 
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
-  experience: [{
+  experience: [
+    {
       Stack: "Android Kotlin", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
@@ -151,7 +154,8 @@ const techStack = {
 
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
-  experience: [{
+  experience: [
+    {
       role: "Android Developer Intern",
       company: "Eyecan",
       companylogo: require("./assets/images/eyecan-logo.png"),
@@ -190,11 +194,13 @@ const openSource = {
 const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [{
+  projects: [
+    {
       image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Saayahealth",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [{
+      footerLink: [
+        {
           name: "Visit Website",
           url: "http://saayahealth.com/"
         }
@@ -205,10 +211,12 @@ const bigProjects = {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "Nextu",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [{
-        name: "Visit Website",
-        url: "http://nextu.se/"
-      }]
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]
     }
   ],
   display: false // Set false to hide this section, defaults to true
@@ -219,63 +227,77 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Achievements, Certifications and Some Cool Stuff that I have done !",
+  subtitle:
+    "Achievements, Certifications and Some Cool Stuff that I have done !",
 
-  achievementsCards: [{
+  achievementsCards: [
+    {
       title: "Android Development",
       subtitle: "Completed Android Development Course with Coding Ninjas.",
       image: require("./assets/images/codingNinjas-logo.png"),
-      footerLink: [{
-        name: "Certification",
-        url: "http://certificate.codingninjas.com/verify/697a9d27e7599e08"
-      }]
+      footerLink: [
+        {
+          name: "Certification",
+          url: "http://certificate.codingninjas.com/verify/697a9d27e7599e08"
+        }
+      ]
     },
     {
       title: "Java DSA",
       subtitle: "Completed Java DSA Course with Coding Ninjas.",
       image: require("./assets/images/codingNinjas-logo.png"),
-      footerLink: [{
-        name: "Certification",
-        url: "http://certificate.codingninjas.com/verify/8552fa02056ece03"
-      }]
+      footerLink: [
+        {
+          name: "Certification",
+          url: "http://certificate.codingninjas.com/verify/8552fa02056ece03"
+        }
+      ]
     },
 
     {
       title: "Introduction to Java",
       subtitle: "Completed Java Course with Coding Ninjas.",
       image: require("./assets/images/codingNinjas-logo.png"),
-      footerLink: [{
-        name: "Certification",
-        url: "http://certificate.codingninjas.com/verify/41e3a9c9d7b0961d"
-      }]
+      footerLink: [
+        {
+          name: "Certification",
+          url: "http://certificate.codingninjas.com/verify/41e3a9c9d7b0961d"
+        }
+      ]
     },
     {
       title: "CS50x Introduction",
       subtitle: "Introduction to Computer Science by CS50 | Harvard University",
       image: require("./assets/images/harvardLogo.png"),
-      footerLink: [{
-        name: "Certification",
-        url: "https://cs50.harvard.edu/certificates/6664d13a-e947-4bf3-b216-eb00b7dd6aa1"
-      }]
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://cs50.harvard.edu/certificates/6664d13a-e947-4bf3-b216-eb00b7dd6aa1"
+        }
+      ]
     },
     {
       title: "Python Data Structures",
       subtitle: "Python Data Structures by University of Michigan via Coursera",
       image: require("./assets/images/coursera-logo.png"),
-      footerLink: [{
-        name: "Certification",
-        url: "http://coursera.org/verify/WMMVVDJ78BRR"
-      }]
+      footerLink: [
+        {
+          name: "Certification",
+          url: "http://coursera.org/verify/WMMVVDJ78BRR"
+        }
+      ]
     },
     {
       title: "Python Introduction",
       subtitle: "Python Introduction by University of Michigan via Coursera",
       image: require("./assets/images/coursera-logo.png"),
-      footerLink: [{
-        name: "Certification",
-        url: "http://coursera.org/verify/YHSH2MR4DHBX"
-      }]
-    },
+      footerLink: [
+        {
+          name: "Certification",
+          url: "http://coursera.org/verify/YHSH2MR4DHBX"
+        }
+      ]
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -284,17 +306,21 @@ const achievementSection = {
 
 const blogSection = {
   title: "Blogs",
-  subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  subtitle:
+    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [{
+  blogs: [
+    {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      description:
+        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
     {
       url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
       title: "Why REACT is The Best?",
-      description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      description:
+        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
   display: false // Set false to hide this section, defaults to true
@@ -319,15 +345,14 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    ""
-  ],
+  podcast: [""],
   display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
+  subtitle:
+    "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+91-9272277141",
   email_address: "suryawanshirushikesh90@gmail.com"
 };
