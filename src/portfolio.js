@@ -59,8 +59,7 @@ const skillsSection = {
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
+  softwareSkills: [{
       skillName: "android",
       fontAwesomeClassname: "fab fa-android"
     },
@@ -121,12 +120,11 @@ https://fontawesome.com/icons?d=gallery */
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [{
-      schoolName: "GESCOE, Nashik (SPPU)",
-      logo: require("./assets/images/clg-logo.png"),
-      subHeader: "Bachelor's in Computer Science",
-      duration: "June 2019 - April 2023"
-    }
-  ]
+    schoolName: "GESCOE, Nashik (SPPU)",
+    logo: require("./assets/images/clg-logo.png"),
+    subHeader: "Bachelor's in Computer Science",
+    duration: "June 2019 - April 2023"
+  }]
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -228,10 +226,9 @@ const achievementSection = {
       subtitle: "Completed Android Development Course with Coding Ninjas.",
       image: require("./assets/images/codingNinjas-logo.png"),
       footerLink: [{
-          name: "Certification",
-          url: "http://certificate.codingninjas.com/verify/697a9d27e7599e08"
-        }
-      ]
+        name: "Certification",
+        url: "http://certificate.codingninjas.com/verify/697a9d27e7599e08"
+      }]
     },
     {
       title: "Java DSA",
