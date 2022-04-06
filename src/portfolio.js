@@ -23,7 +23,7 @@ const greeting = {
   username: "Rushikesh Suryawanshi",
   title: "Hi all, I'm Rushikesh",
   subTitle: emoji(
-    "A passionate Android Developer 🚀 having experience in building Native Android applications with Kotlin. Currently learning DevOps and Web"
+    "A passionate Android Developer 🚀 having experience in building Native Android applications with Kotlin. Currently learning DevOps and Web."
   ),
   resumeLink:
     "https://github.com/rushikeshsuryawanshi/resume/raw/main/Rushikesh_Suryawanshi.pdf", // Set to empty to hide the button
