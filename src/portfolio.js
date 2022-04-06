@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Android Developer 🚀 having experience in building Native Android applications with Kotlin. Currently learning DevOps and Web"
   ),
   resumeLink:
-    "https://github.com/rushikeshsuryawanshi/resume/blob/main/Rushikesh_Suryawanshi.pdf", // Set to empty to hide the button
+    "https://github.com/rushikeshsuryawanshi/resume/raw/main/Rushikesh_Suryawanshi.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
