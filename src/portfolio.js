@@ -156,7 +156,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Android Developer Intern",
+      role: "Android Developer",
       company: "Eyecan",
       companylogo: require("./assets/images/eyecan-logo.png"),
       date: "Feb 2022 – Present",
